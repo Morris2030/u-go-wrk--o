@@ -1,0 +1,193 @@
+
+    
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Courses</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font/css/all.css">
+    <link rel="stylesheet" href="about.css">
+
+    <link rel="stylesheet" href="course-inner.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <style>
+        #home{
+            width: 100%;
+            height: 60vh;
+            background-color: black; 
+        
+            
+        }
+       
+        #Home a.blue:hover{
+            color:blue;
+            background-color: beige;
+        }
+        .date{
+            backdrop-filter: blur(4px);
+            box-shadow: rgba(35, 38, 135, 0.37);
+            border-radius: 5px;
+            margin: 0 5px 10px 5px;
+            border: 1px solid white;
+            font-size: 1.1rem;
+        }
+        .steve{
+            width: 150px;
+            border-radius: 60%;
+            background-size: cover;
+            background-position: center;
+    
+        }
+        footer .footer-col{
+            padding-bottom: 40px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        
+        <img class="logo" src="images (14).jpeg" alt="">
+        <h1 class="aca">Tech Academic</h1>
+        <div class="navication">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li> <a href="school.html">Home</a></li>
+                <li> <a href="About .html">About</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li> <a href="Contact.html">Contact</a></li>  
+            
+                
+            </ul>
+            <img class="menu-btn" src="bg1n2/menu-icon-19353.png" alt="">1
+        </div>
+    </nav>
+    <section id="home">
+       
+        <h2>
+            Enrol Our popular Courses and Skill up
+        </h2>
+    </section>
+    <section id="courses-inner">
+        <div class="overview">
+            <img class="cos img" src="./bg1n2/images (13).jpeg" alt="">
+            <div class="course-head">
+                <div class="c-name">
+                    <h2>Javascript for beginners</h2>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, impedit.</p>
+                </div>
+                <span>N250k</span>
+            </div>
+            <h3>Instructor</h3>
+            <div class="tutor">
+                <img src="./bg1n2/Adah.jpg" alt="">
+                <div class="tutor-det">
+                    <h5>Joseph Jonathan</h5>
+                    <p>Fulstack Engr.</p>
+                </div>
+            </div>
+            <hr>
+            <h3>Course Overview</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Assumenda eligendi facilis provident similique, ab beatae distinctio excepturi neque 
+                itaque deserunt soluta ducimus dolorum!</p>
+                <hr>
+                <h3>What you will learn</h3>
+                <div class="learn">
+                    <p> <i class="far fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur.</p>
+                    <p> <i class="far fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur.</p>
+                    <p> <i class="far fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur.</p>
+                    <p> <i class="far fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur.</p>
+                    <p> <i class="far fa-check-circle"></i> Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+        </div>
+        
+        
+        </section> 
+    <footer>
+        <div class="footer-col">
+            <h3>Top product</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage websites</li>
+            <li>Marketing service</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Quick links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investors Relation</li>
+            <li>Terms of Services</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage websites</li>
+            <li>Marketing service</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Expert</li>
+            <li>Marketing service</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>News letter</h3>
+            <p>You can trust us, we only send promo offers.</p>
+            <div class="Subscribe">
+                <input type="text" placeholder="Your email address">
+                <a href="#">Subscribe</a>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+    
+            </div>
+            <div>
+                <h6>
+                    <p>
+                        copyright @Stephen 2022
+                    </p>
+                </h6>
+            </div>
+          
+        </div>
+       
+        
+    </footer>
+    <script>
+          
+          $('menu-btn').click(function(){
+            $('nav .navication ul').addClass('active')
+        })
+        
+        
+        $('#menu-close').click(function(){
+            $('nav .navication ul').removeClass('active')
+        })
+    </script>
+
+</body>
+</html>
+</body>
+</html>
